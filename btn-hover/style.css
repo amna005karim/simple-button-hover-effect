@@ -1,0 +1,132 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #324559;
+  }
+  #btn{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffc107;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  #btn:before{
+    color: white;
+    font-family: sans-serif;
+    content: 'Heart';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  #btn:hover:before{
+    top: -30px;
+  }
+  #btn:after{
+    font-family: 'Ionicons';
+    content: '\f141';
+    font-size: 40px;
+    color: #f44336;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 140%;
+    transition: all 0.5s;
+  }
+  #btn:hover:after{
+    top: 50%;
+  }
+  /* second-btn */
+  #btn1{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 70%);
+    background: #826c4b;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  #btn1:before{
+    color: white;
+    font-family: sans-serif;
+    content: 'Home';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  #btn1:hover:before{
+    top: -30px;
+  }
+  #btn1:after{
+    font-family: 'Ionicons';
+    content: '\f144';
+    font-size: 40px;
+    color: #434f76;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 140%;
+    transition: all 0.5s;
+  }
+  #btn1:hover:after{
+    top: 50%;
+  }
+  /* third-btn */
+  #btn2{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-155%, -150%);
+    background: #a45a3e;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  #btn2:before{
+    color: white;
+    font-family: sans-serif;
+    content: ' Music';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+  #btn2:hover:before{
+    top: -30px;
+  }
+  #btn2:after{
+    font-family: 'Ionicons';
+    content: '\f140';
+    font-size: 40px;
+    color: #666669;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 140%;
+    transition: all 0.5s;
+  }
+  #btn2:hover:after{
+    top: 50%;
+  }
